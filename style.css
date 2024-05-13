@@ -1,16 +1,26 @@
 body {
     background-color: #cddc39;
+    padding-top: -30px;
 
 }
-.main-container {
-    background-color: white;
-
+header {
+    margin-top: -10px;
 }
 nav .nav-wrapper {
     padding: 1px;
-
+    
 }
 nav ul li a {
     color: orange;
 
 }
+.container {
+    background-color: white;
+
+}
+.row.container {
+    margin-top: 15px;
+    
+}
+
+
