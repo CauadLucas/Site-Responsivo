@@ -1,6 +1,7 @@
 body {
     background-color: #cddc39;
     padding-top: -30px;
+    font-family: 'Times New Roman', Times, serif;
 
 }
 header {
@@ -16,11 +17,32 @@ nav ul li a {
 }
 .container {
     background-color: white;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
 
+}
+.container h1 {
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+.container h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+p {
+    font-size: 1.25rem;
+    text-align: justify;
+
+}
+.Xiaomi {
+    width: 300px;
 }
 .row.container {
-    margin-top: 15px;
+    margin-top: 30px;
     
 }
-
-
+.GitHub img {
+    width: 100px;
+}
