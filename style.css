@@ -1,11 +1,12 @@
 body {
-    background-color: #cddc39;
-    padding-top: -30px;
+    background-color: #f4f1e3;
     font-family: 'Times New Roman', Times, serif;
-
+}
+body .cell-page {
+    background-color: white;
 }
 header {
-    margin-top: -10px;
+    margin-top: -14px;
 }
 nav .nav-wrapper {
     padding: 1px;
@@ -16,11 +17,19 @@ nav ul li a {
 
 }
 .container {
-    background-color: white;
     text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
-
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 15px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.cell-one {
+    background-color: white;
+}
+.card {
+    border-radius: 10px;
+    width: 100%;
 }
 .container h1 {
     font-size: 2rem;
@@ -39,10 +48,11 @@ p {
 .Xiaomi {
     width: 300px;
 }
-.row.container {
-    margin-top: 30px;
-    
-}
 .GitHub img {
     width: 100px;
 }
+footer .container {
+    background-color: #1a237e;
+}
+
+
